@@ -12,10 +12,10 @@ def run():
     selectbox = st.sidebar.selectbox('Choose annotator', ('amin', 'admin'))
 
     if selectbox == "amin":
-        data = pd.read_json('amin.json')
+        data = pd.read_json('./data/amin.json')
 
     elif selectbox == "admin":
-        data = pd.read_json('admin.json')
+        data = pd.read_json('./data/admin.json')
 
 
 
