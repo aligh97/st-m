@@ -106,7 +106,7 @@ def run():
         elif text == 'number of non-product':
             output = str(sum(non_pro))
         elif text == 'number of attributes':
-            output ==str(sum(attribute))
+            output = str(sum(attribute))
         elif text == 'number of skiped':
             output = str(sum(skip))
         elif text == 'number of comments':
