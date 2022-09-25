@@ -9,7 +9,7 @@ def run():
 
     st.sidebar.info('Welcome Samaneh Beigi')
 
-    data = pd.read_json('./data/5.json', encoding='utf-8-sig')
+    data = pd.read_json('./data/4.json', encoding='utf-8-sig')
 
 
 
